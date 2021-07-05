@@ -8,6 +8,6 @@ Les données restituées par le site web sont récupérées via une API maison b
 
 L'url d'accès à l'application est http://127.0.0.1:5000/
 
-Afin d'obtenir cette url je vous invite à suivre les instructions situé dans le liens suivant : https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
+Afin d'obtenir cette url je vous invite à suivre les instructions situées dans le lien suivant : https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
 
-Une fois l'environnement virtuel de l'API créé il vous suffit d'ouvrir le fichier p6_html.html dans votre navigateur web.
+Une fois l'environnement virtuel de l'API créé, il vous suffit d'ouvrir le fichier p6_html.html dans votre navigateur web afin d'afficher le site web.
