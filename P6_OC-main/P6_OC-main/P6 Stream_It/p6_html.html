@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/modal.css"/>
+		<link rel="stylesheet" href="css/carrousel.css"/>
+		<title>JustStreamIt</title>
+	</head>
+
+	<body>
+		<nav>
+			<h2>JustStreamIt</h2>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Catégories</a></li>
+			</ul>
+		</nav>
+
+		<div class="main">
+			<div class="bloc">
+				<h1 id="titleMovieBest"></h1>
+				<button class="triggers" id="btn">Play</button>
+			</div>
+			<div class="triggers" id="imageBest"></div>
+		</div>
+
+		<div class="wrapper">
+
+			<section id="section1">
+				<a href="#section2" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger section1" id="imageBest-0"></div>
+				</div>
+				<div class="item">
+					<div class="trigger section1" id="imageBest-1"></div>
+				</div>
+				<div class="item">
+					<div class="trigger section1" id="imageBest-2"></div>
+				</div>
+				<div class="item">
+					<div class="trigger section1" id="imageBest-3"></div>
+				</div>
+				<a href="#section2" class="arrow__btn right-arrow">›</a>
+			</section>
+
+			<section id="section2">
+				<a href="#section1" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger section1" id="imageBest-4"></div>
+				</div>
+				<div class="item">
+					<div class="trigger section1" id="imageBest-5"></div>
+				</div>
+				<div class="item">
+					<div class="trigger section1" id="imageBest-6"></div>
+				</div>
+				<a href="#section1" class="arrow__btn right-arrow">›</a>
+			</section>
+		</div>
+		<div class="wrapper">
+			<!-- catégorie Action -->
+			<section id="section3">
+				<a href="#section4" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger-action section1" id="imageAction-0"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-action section1" id="imageAction-1"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-action section1" id="imageAction-2"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-action section1" id="imageAction-3"></div>
+				</div>
+				<a href="#section4" class="arrow__btn right-arrow">›</a>
+			</section>
+
+			<section id="section4">
+				<a href="#section3" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger-action section1" id="imageAction-4"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-action section1" id="imageAction-5"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-action section1" id="imageAction-6"></div>
+				</div>
+				<a href="#section3" class="arrow__btn right-arrow">›</a>
+			</section>
+		</div>
+		
+		<div class="wrapper">
+			<!-- Catégorie Horor -->
+			<section id="section5">
+				<a href="#section6" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger-horor section1" id="imageHoror-0"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-horor section1" id="imageHoror-1"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-horor section1" id="imageHoror-2"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-horor section1" id="imageHoror-3"></div>
+				</div>
+				<a href="#section6" class="arrow__btn right-arrow">›</a>
+			</section>
+
+			<section id="section6">
+				<a href="#section5" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger-horor section1" id="imageHoror-4"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-horor section1" id="imageHoror-5"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-horor section1" id="imageHoror-6"></div>
+				</div>
+				<a href="#section5" class="arrow__btn right-arrow">›</a>
+			</section>
+		</div>
+		<div class="wrapper">
+			<!-- Catégorie Fiction -->
+			<section id="section7">
+				<a href="#section8" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger-fiction section1" id="imagefiction-0"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-fiction section1" id="imagefiction-1"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-fiction section1" id="imagefiction-2"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-fiction section1" id="imagefiction-3"></div>
+				</div>
+				<a href="#section8" class="arrow__btn right-arrow">›</a>
+			</section>
+
+			<section id="section8">
+				<a href="#section7" class="arrow__btn left-arrow">‹</a>
+				<div class="item">
+					<div class="trigger-fiction section1" id="imagefiction-4"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-fiction section1" id="imagefiction-5"></div>
+				</div>
+				<div class="item">
+					<div class="trigger-fiction section1" id="imagefiction-6"></div>
+				</div>
+				<a href="#section7" class="arrow__btn right-arrow">›</a>
+			</section>
+		</div>
+
+		<div class="modalBest">
+			<div class="modal-contentBest">
+				<span class="close-button">&times;</span>
+				<h1 id="titleMovieBestModal"></h1>
+				<div id="imageBestModal"></div>
+				<div id="genderBest"></div>
+				<div id="yearBest"></div>
+				<div id="countryBest"></div>
+				<div id="imbdBest"></div>
+				<div id="voteBest"></div>
+				<div id="realisateurBest"></div>
+				<div id="actorsBest"></div>
+				<div id="durationBest"></div>
+				<div id="descriptionBest"></div>
+				<div id="boxofficeBest"></div>
+
+			</div>
+		</div>
+		<!-- {# Début modal best movies #} -->
+		<div class="modal0">
+			<div class="modal-content-0">
+				<span class="close-button0">&times;</span>
+				<h1 id="titleMovie-0"></h1>
+				<div id="imageBestModal0"></div>
+				<div id="genderBest0"></div>
+				<div id="yearBest0"></div>
+				<div id="countryBest0"></div>
+				<div id="imbdBest0"></div>
+				<div id="voteBest0"></div>
+				<div id="realisateurBest0"></div>
+				<div id="actorsBest0"></div>
+				<div id="durationBest0"></div>
+				<div id="descriptionBest0"></div>
+				<div id="boxofficeBest0"></div>
+			</div>
+		</div>
+
+		<div class="modal1">
+			<div class="modal-content-1">
+				<span class="close-button1">&times;</span>
+				<h1 id="titleMovie-1"></h1>
+				<div id="imageBestModal1"></div>
+				<div id="genderBest1"></div>
+				<div id="yearBest1"></div>
+				<div id="countryBest1"></div>
+				<div id="imbdBest1"></div>
+				<div id="voteBest1"></div>
+				<div id="realisateurBest1"></div>
+				<div id="actorsBest1"></div>
+				<div id="durationBest1"></div>
+				<div id="descriptionBest1"></div>
+				<div id="boxofficeBest1"></div>
+			</div>
+		</div>
+
+		<div class="modal2">
+			<div class="modal-content-2">
+				<span class="close-button2">&times;</span>
+				<h1 id="titleMovie-2"></h1>
+				<div id="imageBestModal2"></div>
+				<div id="genderBest2"></div>
+				<div id="yearBest2"></div>
+				<div id="countryBest2"></div>
+				<div id="imbdBest2"></div>
+				<div id="voteBest2"></div>
+				<div id="realisateurBest2"></div>
+				<div id="actorsBest2"></div>
+				<div id="durationBest2"></div>
+				<div id="descriptionBest2"></div>
+				<div id="boxofficeBest2"></div>
+			</div>
+		</div>
+
+		<div class="modal3">
+			<div class="modal-content-3">
+				<span class="close-button3">&times;</span>
+				<h1 id="titleMovie-3"></h1>
+				<div id="imageBestModal3"></div>
+				<div id="genderBest3"></div>
+				<div id="yearBest3"></div>
+				<div id="countryBest3"></div>
+				<div id="imbdBest3"></div>
+				<div id="voteBest3"></div>
+				<div id="realisateurBest3"></div>
+				<div id="actorsBest3"></div>
+				<div id="durationBest3"></div>
+				<div id="descriptionBest3"></div>
+				<div id="boxofficeBest3"></div>
+			</div>
+		</div>
+
+		<div class="modal4">
+			<div class="modal-content-4">
+				<span class="close-button4">&times;</span>
+				<h1 id="titleMovie-4"></h1>
+				<div id="imageBestModal4"></div>
+				<div id="genderBest4"></div>
+				<div id="yearBest4"></div>
+				<div id="countryBest4"></div>
+				<div id="imbdBest4"></div>
+				<div id="voteBest4"></div>
+				<div id="realisateurBest4"></div>
+				<div id="actorsBest4"></div>
+				<div id="durationBest4"></div>
+				<div id="descriptionBest4"></div>
+				<div id="boxofficeBest4"></div>
+			</div>
+		</div>
+
+		<div class="modal5">
+			<div class="modal-content-5">
+				<span class="close-button5">&times;</span>
+				<h1 id="titleMovie-5"></h1>
+				<div id="imageBestModal5"></div>
+				<div id="genderBest5"></div>
+				<div id="yearBest5"></div>
+				<div id="countryBest5"></div>
+				<div id="imbdBest5"></div>
+				<div id="voteBest5"></div>
+				<div id="realisateurBest5"></div>
+				<div id="actorsBest5"></div>
+				<div id="durationBest5"></div>
+				<div id="descriptionBest5"></div>
+				<div id="boxofficeBest5"></div>
+			</div>
+		</div>
+
+		<div class="modal6">
+			<div class="modal-content-6">
+				<span class="close-button6">&times;</span>
+				<h1 id="titleMovie-6"></h1>
+				<div id="imageBestModal6"></div>
+				<div id="genderBest6"></div>
+				<div id="yearBest6"></div>
+				<div id="countryBest6"></div>
+				<div id="imbdBest6"></div>
+				<div id="voteBest6"></div>
+				<div id="realisateurBest6"></div>
+				<div id="actorsBest6"></div>
+				<div id="durationBest6"></div>
+				<div id="descriptionBest6"></div>
+				<div id="boxofficeBest6"></div>
+			</div>
+		</div>
+		
+		<!-- {# Fin modal Best movies #} -->
+
+		<!-- {# Modal Action #} -->
+		<div class="modal-action-0">
+			<div class="modal-content-action-0">
+				<span class="close-button-action0">&times;</span>
+				<h1 id="titleMovieAction-0"></h1>
+				<div id="imageActionModal0"></div>
+				<div id="genderAction0"></div>
+				<div id="yearAction0"></div>
+				<div id="countryAction0"></div>
+				<div id="imbdAction0"></div>
+				<div id="voteAction0"></div>
+				<div id="realisateurAction0"></div>
+				<div id="actorsAction0"></div>
+				<div id="durationAction0"></div>
+				<div id="descriptionAction0"></div>
+				<div id="boxofficeAction0"></div>
+			</div>
+		</div>
+
+		<div class="modal-action-1">
+			<div class="modal-content-action-1">
+				<span class="close-button-action1">&times;</span>
+				<h1 id="titleMovieAction-1"></h1>
+				<div id="imageActionModal1"></div>
+				<div id="genderAction1"></div>
+				<div id="yearAction1"></div>
+				<div id="countryAction1"></div>
+				<div id="imbdAction1"></div>
+				<div id="voteAction1"></div>
+				<div id="realisateurAction1"></div>
+				<div id="actorsAction1"></div>
+				<div id="durationAction1"></div>
+				<div id="descriptionAction1"></div>
+				<div id="boxofficeAction1"></div>
+			</div>
+		</div>
+
+		<div class="modal-action-2">
+			<div class="modal-content-action-2">
+				<span class="close-button-action2">&times;</span>
+				<h1 id="titleMovieAction-2"></h1>
+				<div id="imageActionModal2"></div>
+				<div id="genderAction2"></div>
+				<div id="yearAction2"></div>
+				<div id="countryAction2"></div>
+				<div id="imbdAction2"></div>
+				<div id="voteAction2"></div>
+				<div id="realisateurAction2"></div>
+				<div id="actorsAction2"></div>
+				<div id="durationAction2"></div>
+				<div id="descriptionAction2"></div>
+				<div id="boxofficeAction2"></div>
+			</div>
+		</div>
+
+		<div class="modal-action-3">
+			<div class="modal-content-action-3">
+				<span class="close-button-action3">&times;</span>
+				<h1 id="titleMovieAction-3"></h1>
+				<div id="imageActionModal3"></div>
+				<div id="genderAction3"></div>
+				<div id="yearAction3"></div>
+				<div id="countryAction3"></div>
+				<div id="imbdAction3"></div>
+				<div id="voteAction3"></div>
+				<div id="realisateurAction3"></div>
+				<div id="actorsAction3"></div>
+				<div id="durationAction3"></div>
+				<div id="descriptionAction3"></div>
+				<div id="boxofficeAction3"></div>
+			</div>
+		</div>
+
+		<div class="modal-action-4">
+			<div class="modal-content-action-4">
+				<span class="close-button-action4">&times;</span>
+				<h1 id="titleMovieAction-4"></h1>
+				<div id="imageActionModal4"></div>
+				<div id="genderAction4"></div>
+				<div id="yearAction4"></div>
+				<div id="countryAction4"></div>
+				<div id="imbdAction4"></div>
+				<div id="voteAction4"></div>
+				<div id="realisateurAction4"></div>
+				<div id="actorsAction4"></div>
+				<div id="durationAction4"></div>
+				<div id="descriptionAction4"></div>
+				<div id="boxofficeAction4"></div>
+			</div>
+		</div>
+
+		<div class="modal-action-5">
+			<div class="modal-content-action-5">
+				<span class="close-button-action5">&times;</span>
+				<h1 id="titleMovieAction-5"></h1>
+				<div id="imageActionModal5"></div>
+				<div id="genderAction5"></div>
+				<div id="yearAction5"></div>
+				<div id="countryAction5"></div>
+				<div id="imbdAction5"></div>
+				<div id="voteAction5"></div>
+				<div id="realisateurAction5"></div>
+				<div id="actorsAction5"></div>
+				<div id="durationAction5"></div>
+				<div id="descriptionAction5"></div>
+				<div id="boxofficeAction5"></div>
+			</div>
+		</div>
+
+		<div class="modal-action-6">
+			<div class="modal-content-action-6">
+				<span class="close-button-action6">&times;</span>
+				<h1 id="titleMovieAction-6"></h1>
+				<div id="imageActionModal6"></div>
+				<div id="genderAction6"></div>
+				<div id="yearAction6"></div>
+				<div id="countryAction6"></div>
+				<div id="imbdAction6"></div>
+				<div id="voteAction6"></div>
+				<div id="realisateurAction6"></div>
+				<div id="actorsAction6"></div>
+				<div id="durationAction6"></div>
+				<div id="descriptionAction6"></div>
+				<div id="boxofficeAction6"></div>
+			</div>
+		</div>
+		<!-- {# Fin modal Action #} -->
+
+		<!-- {# Modal Horor #} -->
+		<div class="modal-Horor-0">
+			<div class="modal-content-Horor-0">
+				<span class="close-button-Horor0">&times;</span>
+				<h1 id="titleMovieHoror-0"></h1>
+				<div id="imageHororModal0"></div>
+				<div id="genderHoror0"></div>
+				<div id="yearHoror0"></div>
+				<div id="countryHoror0"></div>
+				<div id="imbdHoror0"></div>
+				<div id="voteHoror0"></div>
+				<div id="realisateurHoror0"></div>
+				<div id="actorsHoror0"></div>
+				<div id="durationHoror0"></div>
+				<div id="descriptionHoror0"></div>
+				<div id="boxofficeHoror0"></div>
+			</div>
+		</div>
+
+		<div class="modal-Horor-1">
+			<div class="modal-content-Horor-1">
+				<span class="close-button-Horor1">&times;</span>
+				<h1 id="titleMovieHoror-1"></h1>
+				<div id="imageHororModal1"></div>
+				<div id="genderHoror1"></div>
+				<div id="yearHoror1"></div>
+				<div id="countryHoror1"></div>
+				<div id="imbdHoror1"></div>
+				<div id="voteHoror1"></div>
+				<div id="realisateurHoror1"></div>
+				<div id="actorsHoror1"></div>
+				<div id="durationHoror1"></div>
+				<div id="descriptionHoror1"></div>
+				<div id="boxofficeHoror1"></div>
+			</div>
+		</div>
+
+		<div class="modal-Horor-2">
+			<div class="modal-content-Horor-2">
+				<span class="close-button-Horor2">&times;</span>
+				<h1 id="titleMovieHoror-2"></h1>
+				<div id="imageHororModal2"></div>
+				<div id="genderHoror2"></div>
+				<div id="yearHoror2"></div>
+				<div id="countryHoror2"></div>
+				<div id="imbdHoror2"></div>
+				<div id="voteHoror2"></div>
+				<div id="realisateurHoror2"></div>
+				<div id="actorsHoror2"></div>
+				<div id="durationHoror2"></div>
+				<div id="descriptionHoror2"></div>
+				<div id="boxofficeHoror2"></div>
+			</div>
+		</div>
+
+		<div class="modal-Horor-3">
+			<div class="modal-content-Horor-3">
+				<span class="close-button-Horor3">&times;</span>
+				<h1 id="titleMovieHoror-3"></h1>
+				<div id="imageHororModal3"></div>
+				<div id="genderHoror3"></div>
+				<div id="yearHoror3"></div>
+				<div id="countryHoror3"></div>
+				<div id="imbdHoror3"></div>
+				<div id="voteHoror3"></div>
+				<div id="realisateurHoror3"></div>
+				<div id="actorsHoror3"></div>
+				<div id="durationHoror3"></div>
+				<div id="descriptionHoror3"></div>
+				<div id="boxofficeHoror3"></div>
+			</div>
+		</div>
+
+		<div class="modal-Horor-4">
+			<div class="modal-content-Horor-4">
+				<span class="close-button-Horor4">&times;</span>
+				<h1 id="titleMovieHoror-4"></h1>
+				<div id="imageHororModal4"></div>
+				<div id="genderHoror4"></div>
+				<div id="yearHoror4"></div>
+				<div id="countryHoror4"></div>
+				<div id="imbdHoror4"></div>
+				<div id="voteHoror4"></div>
+				<div id="realisateurHoror4"></div>
+				<div id="actorsHoror4"></div>
+				<div id="durationHoror4"></div>
+				<div id="descriptionHoror4"></div>
+				<div id="boxofficeHoror4"></div>
+			</div>
+		</div>
+
+		<div class="modal-Horor-5">
+			<div class="modal-content-Horor-5">
+				<span class="close-button-Horor5">&times;</span>
+				<h1 id="titleMovieHoror-5"></h1>
+				<div id="imageHororModal5"></div>
+				<div id="genderHoror5"></div>
+				<div id="yearHoror5"></div>
+				<div id="countryHoror5"></div>
+				<div id="imbdHoror5"></div>
+				<div id="voteHoror5"></div>
+				<div id="realisateurHoror5"></div>
+				<div id="actorsHoror5"></div>
+				<div id="durationHoror5"></div>
+				<div id="descriptionHoror5"></div>
+				<div id="boxofficeHoror5"></div>
+			</div>
+		</div>
+
+		<div class="modal-Horor-6">
+			<div class="modal-content-Horor-6">
+				<span class="close-button-Horor6">&times;</span>
+				<h1 id="titleMovieHoror-6"></h1>
+				<div id="imageHororModal6"></div>
+				<div id="genderHoror6"></div>
+				<div id="yearHoror6"></div>
+				<div id="countryHoror6"></div>
+				<div id="imbdHoror6"></div>
+				<div id="voteHoror6"></div>
+				<div id="realisateurHoror6"></div>
+				<div id="actorsHoror6"></div>
+				<div id="durationHoror6"></div>
+				<div id="descriptionHoror6"></div>
+				<div id="boxofficeHoror6"></div>
+			</div>
+		</div>
+		<!-- {# Fin modalHoror #} -->
+
+		<!-- {# Modal Fiction #} -->
+		<div class="modal-fiction-0">
+			<div class="modal-content-fiction-0">
+				<span class="close-button-fiction0">&times;</span>
+				<h1 id="titleMoviefiction-0"></h1>
+				<div id="imagefictionModal0"></div>
+				<div id="genderfiction0"></div>
+				<div id="yearfiction0"></div>
+				<div id="countryfiction0"></div>
+				<div id="imbdfiction0"></div>
+				<div id="votefiction0"></div>
+				<div id="realisateurfiction0"></div>
+				<div id="actorsfiction0"></div>
+				<div id="durationfiction0"></div>
+				<div id="descriptionfiction0"></div>
+				<div id="boxofficefiction0"></div>
+			</div>
+		</div>
+
+		<div class="modal-fiction-1">
+			<div class="modal-content-fiction-1">
+				<span class="close-button-fiction1">&times;</span>
+				<h1 id="titleMoviefiction-1"></h1>
+				<div id="imagefictionModal1"></div>
+				<div id="genderfiction1"></div>
+				<div id="yearfiction1"></div>
+				<div id="countryfiction1"></div>
+				<div id="imbdfiction1"></div>
+				<div id="votefiction1"></div>
+				<div id="realisateurfiction1"></div>
+				<div id="actorsfiction1"></div>
+				<div id="durationfiction1"></div>
+				<div id="descriptionfiction1"></div>
+				<div id="boxofficefiction1"></div>
+			</div>
+		</div>
+		
+		<div class="modal-fiction-2">
+			<div class="modal-content-fiction-2">
+				<span class="close-button-fiction2">&times;</span>
+				<h1 id="titleMoviefiction-2"></h1>
+				<div id="imagefictionModal2"></div>
+				<div id="genderfiction2"></div>
+				<div id="yearfiction2"></div>
+				<div id="countryfiction2"></div>
+				<div id="imbdfiction2"></div>
+				<div id="votefiction2"></div>
+				<div id="realisateurfiction2"></div>
+				<div id="actorsfiction2"></div>
+				<div id="durationfiction2"></div>
+				<div id="descriptionfiction2"></div>
+				<div id="boxofficefiction2"></div>
+			</div>
+		</div>
+
+		<div class="modal-fiction-3">
+			<div class="modal-content-fiction-3">
+				<span class="close-button-fiction3">&times;</span>
+				<h1 id="titleMoviefiction-3"></h1>
+				<div id="imagefictionModal3"></div>
+				<div id="genderfiction3"></div>
+				<div id="yearfiction3"></div>
+				<div id="countryfiction3"></div>
+				<div id="imbdfiction3"></div>
+				<div id="votefiction3"></div>
+				<div id="realisateurfiction3"></div>
+				<div id="actorsfiction3"></div>
+				<div id="durationfiction3"></div>
+				<div id="descriptionfiction3"></div>
+				<div id="boxofficefiction3"></div>
+			</div>
+		</div>
+
+		<div class="modal-fiction-4">
+			<div class="modal-content-fiction-4">
+				<span class="close-button-fiction4">&times;</span>
+				<h1 id="titleMoviefiction-4"></h1>
+				<div id="imagefictionModal4"></div>
+				<div id="genderfiction4"></div>
+				<div id="yearfiction4"></div>
+				<div id="countryfiction4"></div>
+				<div id="imbdfiction4"></div>
+				<div id="votefiction4"></div>
+				<div id="realisateurfiction4"></div>
+				<div id="actorsfiction4"></div>
+				<div id="durationfiction4"></div>
+				<div id="descriptionfiction4"></div>
+				<div id="boxofficefiction4"></div>
+			</div>
+		</div>
+
+		<div class="modal-fiction-5">
+			<div class="modal-content-fiction-5">
+				<span class="close-button-fiction5">&times;</span>
+				<h1 id="titleMoviefiction-5"></h1>
+				<div id="imagefictionModal5"></div>
+				<div id="genderfiction5"></div>
+				<div id="yearfiction5"></div>
+				<div id="countryfiction5"></div>
+				<div id="imbdfiction5"></div>
+				<div id="votefiction5"></div>
+				<div id="realisateurfiction5"></div>
+				<div id="actorsfiction5"></div>
+				<div id="durationfiction5"></div>
+				<div id="descriptionfiction5"></div>
+				<div id="boxofficefiction5"></div>
+			</div>
+		</div>
+
+		<div class="modal-fiction-6">
+			<div class="modal-content-fiction-6">
+				<span class="close-button-fiction6">&times;</span>
+				<h1 id="titleMoviefiction-6"></h1>
+				<div id="imagefictionModal6"></div>
+				<div id="genderfiction6"></div>
+				<div id="yearfiction6"></div>
+				<div id="countryfiction6"></div>
+				<div id="imbdfiction6"></div>
+				<div id="votefiction6"></div>
+				<div id="realisateurfiction6"></div>
+				<div id="actorsfiction6"></div>
+				<div id="durationfiction6"></div>
+				<div id="descriptionfiction6"></div>
+				<div id="boxofficefiction6"></div>
+			</div>
+		</div>
+		<!-- {# Fin modalFiction #} -->
+		<footer>
+			<p>JustStreamIt</p>
+		</footer>
+
+
+		<script src="scripts/script.js"></script>
+		<script src="scripts/carrousel.js"></script>
+		<script src="scripts/best_movies.js"></script>
+		<script src="scripts/test_best_movies.js"></script>
+		<script src="scripts/categorie1.js"></script>
+		<script src="scripts/categorie2.js"></script>
+		<script src="scripts/categorie3.js"></script>
+	</body>
+</html>

@@ -1,0 +1,99 @@
+	
+    .modal0, .modal1, .modal2, .modal3, .modal4, .modal5, .modal6, .modal-action-0, .modal-action-1, .modal-action-2, .modal-action-3, .modal-action-4, .modal-action-5, .modal-action-6, .modal-Horor-0, .modal-Horor-1, .modal-Horor-2, .modal-Horor-3, .modal-Horor-4, .modal-Horor-5, .modal-Horor-6, .modal-fiction-0, .modal-fiction-1, .modal-fiction-2, .modal-fiction-3, .modal-fiction-4, .modal-fiction-5, .modal-fiction-6  {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(1.1);
+        transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    }
+    .modalBest {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(1.1);
+        transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    }
+    .modal-content, .modal-content-0, .modal-content-1, .modal-content-2,.modal-content-3, .modal-content-4, .modal-content-5, .modal-content-6, .modal-content-action-0, .modal-content-action-1, .modal-content-action-2, .modal-content-action-3,.modal-content-action-4, .modal-content-action-5, .modal-content-action-6, .modal-content-Horor-0, .modal-content-Horor-1, .modal-content-Horor-2, .modal-content-Horor-3, .modal-content-Horor-4, .modal-content-Horor-5, .modal-content-Horor-6, .modal-content-fiction-0, .modal-content-fiction-1, .modal-content-fiction-2, .modal-content-fiction-3, .modal-content-fiction-4, .modal-content-fiction-5, .modal-content-fiction-6 {
+        position: absolute;
+        height: 65vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        width: 35%;
+    }
+    .modal-contentBest {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        width: 35%;
+    }
+    .close-button, .close-button0, .close-button1, .close-button2, .close-button3, .close-button4, .close-button5, .close-button6, .close-button-action-0, .close-button-action-1, .close-button-action-2, .close-button-action-3, .close-button-action-4, .close-button-action-5, .close-button-action-6, .close-button-Horor-0, .close-button-Horor-1, .close-button-Horor-2, .close-button-Horor-3, .close-button-Horor-4, .close-button-Horor-5, .close-button-Horor-6, .close-button-fiction-0, .close-button-fiction-1, .close-button-fiction-2, .close-button-fiction-3, .close-button-fiction-4, .close-button-fiction-5, .close-button-fiction-6 {
+        float: right;
+        width: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        background-color: lightgray;
+    }
+    .close-button:hover {
+        background-color: darkgray;
+    }
+    .show-modal {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.0);
+        transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
+
+    .modal-content > h1 {
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    .modal-content > img {
+        margin: auto;
+        width: 40%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .modal-content > p {
+        line-height: 30px;
+    }
+
+    .modal-content > p > span {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .modal-contentBest > #imageBestModal{
+        margin: auto;
+        display: block;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .modal-contentBest > h1 {
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+    span {
+        font-weight: bold;
+    }
